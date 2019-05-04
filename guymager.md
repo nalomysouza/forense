@@ -12,9 +12,10 @@
 ### Instalando guymager
  1.  Download cert-forensics-tools-release-29 rpm:
     ```
-    # wget https://forensics.cert.org/cert-forensics-tools-release-29.rpm && rpm -Uvh cert-forensics-tools-release*rpm
-    # rpm -Uvh cert-forensics-tools-release*rpm
-    # dnf --enablerepo=forensics install guymager
+    # wget https://forensics.cert.org/cert-forensics-tools-release-29.rpm && \
+    rpm -Uvh cert-forensics-tools-release*rpm && \
+    rpm -Uvh cert-forensics-tools-release*rpm && \
+    dnf --enablerepo=forensics install guymager
     ```
 ### Clonando disco formato Forense
  1. Execute o programa **Guymager**;
