@@ -1,4 +1,4 @@
-###  Instalando o configurando Guymager 0.8.8 (Fedora 29)
+###  Instalando e configurando Guymager 0.8.8 (Fedora 29)
 
 > Descrição: guymager is an imager for forensic media acquisition. Its
 > main features are:
