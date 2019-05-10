@@ -10,13 +10,13 @@
 * Generates flat (dd) and EWF (E01) images
 
 ### Instalando guymager
- 1.  Download cert-forensics-tools-release-29 rpm:
-    ```
-    # wget https://forensics.cert.org/cert-forensics-tools-release-29.rpm && \
-    rpm -Uvh cert-forensics-tools-release*rpm && \
-    rpm -Uvh cert-forensics-tools-release*rpm && \
-    dnf --enablerepo=forensics install guymager
-    ```
+ 1.  Download cert-forensics-tools-release-29 rpm (Esse pacote contém várias ferramentas para forense):
+```
+nsa@root# wget https://forensics.cert.org/cert-forensics-tools-release-29.rpm
+nsa@root# rpm -Uvh cert-forensics-tools-release*rpm
+nsa@root# dnf --enablerepo=forensics install guymager
+``` 
+
 ### Clonando disco formato Forense
  1. Execute o programa **Guymager**;
  2. Para adicionar discos vá em "**devices > add special device**";
