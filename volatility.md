@@ -5,11 +5,11 @@
 
 ### Instalando Volatility
  1.  Download cert-forensics-tools-release-29 rpm:
-    ```
-    # wget https://forensics.cert.org/cert-forensics-tools-release-29.rpm && rpm -Uvh cert-forensics-tools-release*rpm
-    # rpm -Uvh cert-forensics-tools-release*rpm
-    # dnf --enablerepo=forensics install Volatility
-    ```
+```
+# wget https://forensics.cert.org/cert-forensics-tools-release-29.rpm && rpm -Uvh cert-forensics-tools-release*rpm
+# rpm -Uvh cert-forensics-tools-release*rpm
+# dnf --enablerepo=forensics install Volatility
+```
 ### Alguns comandos úteis
 -   volatility -f hiberfil.sys imagecopy -O hiberfil.raw
 	- Para criar uma cópia do arquivo "original" de dump de memória.
